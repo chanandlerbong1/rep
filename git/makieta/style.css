@@ -1,0 +1,180 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif; }
+  .container .p {
+    float: left;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    width: 5%;
+    margin-right: 5px;
+    text-align: center;
+    display: inline; }
+  .container .t1 {
+    clear: both;
+    font-size: 20px;
+    display: inline; }
+  .container .more {
+    float: right;
+    display: inline; }
+  .container .image {
+    position: relative;
+    width: 100%; }
+  .container .i1t1 {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px; }
+  .container .i1t2 {
+    position: absolute;
+    top: 420px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right; }
+  .container .i1t3 {
+    position: absolute;
+    top: 455px;
+    border: 1px solid brown;
+    padding: 5px;
+    font-size: 18px;
+    right: 0; }
+  .container .t1 {
+    clear: both; }
+  .container .t2 {
+    float: right;
+    margin-right: 0;
+    color: darkgray;
+    text-decoration: underline; }
+  .container .box {
+    margin: 1px; }
+    .container .box .left {
+      float: left;
+      clear: both;
+      position: relative; }
+    .container .box .i2t1 {
+      position: absolute;
+      top: 200px;
+      text-align: left;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px; }
+    .container .box .i2t2 {
+      position: absolute;
+      top: 220px;
+      font-size: 18px;
+      text-align: left;
+      padding: 10px; }
+    .container .box .rightup {
+      float: right;
+      position: relative; }
+    .container .box .i3t1 {
+      position: absolute;
+      top: 200px;
+      right: 0;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px; }
+    .container .box .i3t2 {
+      position: absolute;
+      top: 220px;
+      font-size: 18px;
+      right: 0;
+      padding: 10px; }
+    .container .box .leftdown {
+      float: right;
+      position: relative; }
+    .container .box .i4t1 {
+      position: absolute;
+      top: 200px;
+      text-align: left;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10px; }
+    .container .box .i4t2 {
+      position: absolute;
+      top: 220px;
+      font-size: 18px;
+      text-align: left;
+      padding: 10px; }
+    .container .box .rightdown {
+      position: relative;
+      float: right; }
+    .container .box .i5t1 {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      font-size: 25px;
+      font-weight: bold; }
+    .container .box .i5t2 {
+      position: absolute;
+      top: 40px;
+      font-size: 18px;
+      right: 0; }
+  .container .ds {
+    clear: both;
+    height: 130px;
+    padding: 100px;
+    text-align: center; }
+    .container .ds .t3 {
+      font-weight: bold;
+      font-size: 25px; }
+    .container .ds .t5 {
+      color: darkgray;
+      border: 1px solid brown;
+      padding: 10px; }
+      .container .ds .t5 .plus {
+        color: black;
+        margin-left: 200px; }
+  .container .ds2 {
+    height: 100px;
+    text-align: center; }
+    .container .ds2 .t3 {
+      font-weight: bold;
+      font-size: 25px; }
+  .container .i4 {
+    height: 450px;
+    padding: 4px;
+    float: left;
+    text-align: left;
+    display: relative; }
+    .container .i4 .opt {
+      display: absolute;
+      top: 0;
+      font-size: 18px;
+      right: 0;
+      padding: 10px; }
+  .container .footer {
+    clear: both; }
+    .container .footer .t3 {
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center; }
+    .container .footer .left {
+      width: 49%;
+      text-align: right;
+      float: left; }
+    .container .footer .right {
+      float: right;
+      width: 49%;
+      text-align: left; }
+    .container .footer .t5 {
+      font-size: 20px; }
+  .container .copyright {
+    text-align: center;
+    height: 230px;
+    margin: 0 auto;
+    width: 100%; }
+
+@-ms-viewport{
+  width: device-width;
+}
+
+    *{
+        height:auto;
+        max-width: 100%;
+    }
+}
